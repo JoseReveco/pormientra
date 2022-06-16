@@ -2,7 +2,8 @@
 <template>
   <div>
     <MenuSuperior/>
-    <CuerpoLanding/>
+    <BodyLanding/>
+    <BodyInformation/>
     
   </div>
   
@@ -12,7 +13,8 @@
 <script>
 
 import MenuSuperior from '@/components/MenuSuperior.vue';
-import CuerpoLanding from '@/components/CuerpoLanding.vue';
+import BodyLanding from '@/components/BodyLanding.vue';
+import BodyInformation from '@/components/BodyInformation.vue';
 
 
 export default {
@@ -20,7 +22,8 @@ export default {
   name: 'HomeView',
   components: {
     MenuSuperior,
-    CuerpoLanding
+    BodyLanding,
+    BodyInformation
 
   },
 }
