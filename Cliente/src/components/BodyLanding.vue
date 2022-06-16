@@ -1,4 +1,5 @@
 <template>
+<div class="contenedor">
   <v-carousel v-model="model">
     <v-carousel-item
       v-for="(color, i) in colors"
@@ -21,6 +22,7 @@
       </v-sheet>
     </v-carousel-item>
   </v-carousel>
+  </div>
 </template>
 
 <script>
@@ -37,3 +39,4 @@
     }),
   }
 </script>
+

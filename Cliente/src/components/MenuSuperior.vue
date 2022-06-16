@@ -119,7 +119,7 @@ export default {
         
     },
     methods:{
-        mostrar(){
+        /* mostrar(){
 
             if(this.mostrarLogin && this.estadoBotonMisCursos==false || this.mostrarLogin &&  this.estadoBotonAdmin==false || this.mostrarLogin==false && this.estadoEditarCursos ){
             console.log("SE CERRO ESTE MENU SE SUPONE PARA ACOMDODAR EL EDITAR CURSOS")    
@@ -130,7 +130,7 @@ export default {
                 this.mostrarLogin = true;
             }
             
-        },
+        }, */
 
       /*   mostrarIzquierda(){
             if(this.estadoIzquierda){

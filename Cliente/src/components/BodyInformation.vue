@@ -2,7 +2,7 @@
 
   <div class = "contenedor" >
     
-    En este apartado va la información de la página
+     En este apartado va la información de la página 
     </div>
 </template>
 
